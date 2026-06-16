@@ -18,9 +18,9 @@ neg = 0
 result = [0]*n
 for i in range(0,n):
     if nums[i]>0 :
-        result[i] = nums[i]
+        result[pos] = nums[i]
         pos = pos+2
     else :
-        result[i] = nums[i]
+        result[neg] = nums[i]
         neg = neg+2
 print(result)
