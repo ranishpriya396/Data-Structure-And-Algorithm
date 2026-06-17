@@ -18,13 +18,12 @@ my_set = set(nums)
 print(my_set)
 max_count = 0
 n = len(my_set)
-for num in range(0,n):
+for num in my_set:
     if num-1 not in my_set :
         count = 1
         x = num
-        while x+1 in nums:
+        while x+1 in my_set:
             count +=1
             x = x+1
     max_count = max(max_count , count )          
 print(max_count)
-            
