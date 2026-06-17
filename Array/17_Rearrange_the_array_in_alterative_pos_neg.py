@@ -14,7 +14,7 @@ print(nums)
 # Optimal solution :
 n = len(nums)
 pos = 0 
-neg = 0 
+neg = 1
 result = [0]*n
 for i in range(0,n):
     if nums[i]>0 :
