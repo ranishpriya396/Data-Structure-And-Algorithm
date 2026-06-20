@@ -11,3 +11,7 @@ def search_index(nums,target):
         else :
             e = mid+1
     return lb 
+nums = [5,7,7,8,8,10]
+target = 11
+s = search_index(nums,target)
+print(s)
