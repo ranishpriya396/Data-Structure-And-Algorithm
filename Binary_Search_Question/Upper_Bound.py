@@ -13,5 +13,6 @@ def upper_bound(nums, target):
     return up
 print()
 nums = [5,7,7,8,8,10]
-target = 7
+target = 11
+
 print(upper_bound(nums,target))
