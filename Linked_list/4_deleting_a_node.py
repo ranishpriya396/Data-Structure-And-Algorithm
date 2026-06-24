@@ -29,9 +29,9 @@ class Sll:
 
 sll = Sll()
 node1 =sll.appending(1)
-node2 = sll.appending(1)
-node3 = sll.appending(1)
-node4 = sll.appending(1)
-node5 = sll.appending(1)
+node2 = sll.appending(2)
+node3 = sll.appending(3)
+node4 = sll.appending(4)
+node5 = sll.appending(5)
 
 sll.traversal()
